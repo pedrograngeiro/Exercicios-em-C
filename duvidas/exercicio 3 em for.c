@@ -2,7 +2,7 @@
 int main ()
 {
     long i, aux, x;
-    x = 28;
+    x = 5;
     aux = 0;
 
     for (i = 1; i < x; i++)
@@ -11,12 +11,11 @@ int main ()
         {
             aux = aux + i;   
         }
-        if (aux == x)
+        
+    }
+    if (aux == x)
         {
             printf("%d eh um numero perfeito\n", aux);
-            
-            break;
         }
-    }
     return(aux);
 }
