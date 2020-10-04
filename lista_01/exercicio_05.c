@@ -3,14 +3,15 @@
 int main ()
 {
     float valor;
-    int tot_moeda, moeda, aux, valor_int;
+    int tot_moeda, moeda, valor_int;
     moeda = 100;
 
     printf("Digite o valor desejado: ");
     scanf("%f", &valor);
     valor = valor * 100;
-    valor_int = int(valor);
+    valor_int = valor;
     
+    printf("%d\n", valor_int);
     
     while (valor_int != 0)
     {	
