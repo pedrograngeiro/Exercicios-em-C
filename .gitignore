@@ -1,2 +1,4 @@
 lista_01/*.exe
 duvidas/*.exe
+*.exe
+*.o
