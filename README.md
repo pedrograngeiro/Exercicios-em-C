@@ -1,2 +1,2 @@
-# exercicios-em-c
-Alguns códigos em C.
+# Exercicios em C
+Alguns códigos em C, fique à vontade para estuda-los.
