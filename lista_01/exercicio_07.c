@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <locale.h>
 
-// Quest„o 7 da lista
+// Quest√£o 7 da lista
 
 int main(int argc, char *argv[]) {
 
@@ -38,7 +38,7 @@ int main(int argc, char *argv[]) {
 		sn = sn+alunoinfo[v].nota;
 	}
 	mn = sn/50;
-	printf("As cinco maiores notas acima da mÈdia s„o: ");
+	printf("As cinco maiores notas acima da m√©dia s√£o: ");
 	for(v=0;v<5;++v){
 		if(alunoinfo[v].nota>mn){
 		printf("\nNome: %s",alunoinfo[v].nome);
